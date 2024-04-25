@@ -1,0 +1,35 @@
+{
+    "prod": {
+        "stock_api": {
+            "url": "https://twelve-data1.p.rapidapi.com/quote",
+            "rapidapi_key": "none",
+            "rapidapi_host": "twelve-data1.p.rapidapi.com"
+        },
+        "logging": {
+            "log_level": "INFO",
+            "log_file": "stock.log"
+        }
+    },
+    "dev": {
+        "stock_api": {
+            "url": "https://twelve-data1.p.rapidapi.com/quote",
+            "rapidapi_key": "none",
+            "rapidapi_host": "twelve-data1.p.rapidapi.com"
+        },
+        "logging": {
+            "log_level": "DEBUG",
+            "log_file": "stock.log"
+        }
+    },
+    "testing": {
+        "stock_api": {
+            "url": "https://twelve-data1.p.rapidapi.com/quote",
+            "rapidapi_key": "none",
+            "rapidapi_host": "twelve-data1.p.rapidapi.com"
+        },
+        "logging": {
+            "log_level": "DEBUG",
+            "log_file": "stock.log"
+        }
+    }
+}

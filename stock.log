@@ -1,0 +1,45 @@
+[Time: 2024-04-25 12:05:02,497, File: _internal.py:224, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[Time: 2024-04-25 12:05:02,499, File: _internal.py:224, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[Time: 2024-04-25 12:05:02,511, File: _internal.py:224, Function: _log] INFO -  * Restarting with stat
+[Time: 2024-04-25 12:05:03,235, File: _internal.py:224, Function: _log] WARNING -  * Debugger is active!
+[Time: 2024-04-25 12:05:03,235, File: _internal.py:224, Function: _log] INFO -  * Debugger PIN: 782-264-630
+[Time: 2024-04-25 12:05:26,560, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:05:26] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-25 12:05:26,628, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:05:26] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:05:26,708, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:05:26] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:05:26,912, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:05:26] "[36mGET /stocks.png HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:05:27,308, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:05:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-25 12:05:43,747, File: quote.py:18, Function: get_quote] DEBUG - Getting quote for AMZN
+[Time: 2024-04-25 12:05:44,061, File: connectionpool.py:1003, Function: _new_conn] DEBUG - Starting new HTTPS connection (1): twelve-data1.p.rapidapi.com:443
+[Time: 2024-04-25 12:05:44,595, File: connectionpool.py:456, Function: _make_request] DEBUG - https://twelve-data1.p.rapidapi.com:443 "GET /quote?symbol=AMZN HTTP/1.1" 200 None
+[Time: 2024-04-25 12:05:44,595, File: quote.py:14, Function: __init__] INFO - Quote for AMZN retrieved
+[Time: 2024-04-25 12:05:44,595, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:05:44] "GET /get_quote_query_param?symbol=AMZN HTTP/1.1" 200 -
+[Time: 2024-04-25 12:06:20,800, File: quote.py:18, Function: get_quote] DEBUG - Getting quote for MSFT
+[Time: 2024-04-25 12:06:20,800, File: connectionpool.py:1003, Function: _new_conn] DEBUG - Starting new HTTPS connection (1): twelve-data1.p.rapidapi.com:443
+[Time: 2024-04-25 12:06:21,201, File: connectionpool.py:456, Function: _make_request] DEBUG - https://twelve-data1.p.rapidapi.com:443 "GET /quote?symbol=MSFT HTTP/1.1" 200 None
+[Time: 2024-04-25 12:06:21,217, File: quote.py:14, Function: __init__] INFO - Quote for MSFT retrieved
+[Time: 2024-04-25 12:06:21,220, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:06:21] "GET /get_quote_query_param?symbol=MSFT HTTP/1.1" 200 -
+[Time: 2024-04-25 12:06:48,808, File: _internal.py:224, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+[Time: 2024-04-25 12:06:48,817, File: _internal.py:224, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[Time: 2024-04-25 12:06:48,823, File: _internal.py:224, Function: _log] INFO -  * Restarting with stat
+[Time: 2024-04-25 12:06:49,440, File: _internal.py:224, Function: _log] WARNING -  * Debugger is active!
+[Time: 2024-04-25 12:06:49,456, File: _internal.py:224, Function: _log] INFO -  * Debugger PIN: 782-264-630
+[Time: 2024-04-25 12:06:53,087, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:06:53] "[36mGET / HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:06:54,178, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:06:54] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-25 12:06:54,220, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:06:54] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:06:54,521, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:06:54] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:06:54,521, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:06:54] "[36mGET /stocks.png HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:07:59,375, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:07:59] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-25 12:07:59,408, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:07:59] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:07:59,608, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:07:59] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:07:59,708, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:07:59] "[36mGET /stocks.png HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:08:11,158, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:08:11] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-25 12:08:11,190, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:08:11] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:08:11,401, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:08:11] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:08:11,506, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:08:11] "[36mGET /stocks.png HTTP/1.1[0m" 304 -
+[Time: 2024-04-25 12:08:20,097, File: quote.py:18, Function: get_quote] DEBUG - Getting quote for MSFT
+[Time: 2024-04-25 12:08:20,097, File: connectionpool.py:1003, Function: _new_conn] DEBUG - Starting new HTTPS connection (1): twelve-data1.p.rapidapi.com:443
+[Time: 2024-04-25 12:08:20,442, File: connectionpool.py:456, Function: _make_request] DEBUG - https://twelve-data1.p.rapidapi.com:443 "GET /quote?symbol=MSFT HTTP/1.1" 200 None
+[Time: 2024-04-25 12:08:20,458, File: quote.py:14, Function: __init__] INFO - Quote for MSFT retrieved
+[Time: 2024-04-25 12:08:20,458, File: _internal.py:224, Function: _log] INFO - 127.0.0.1 - - [25/Apr/2024 12:08:20] "GET /get_quote_query_param?symbol=MSFT HTTP/1.1" 200 -
