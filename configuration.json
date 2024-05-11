@@ -2,7 +2,7 @@
     "prod": {
         "stock_api": {
             "url": "https://twelve-data1.p.rapidapi.com/quote",
-            "rapidapi_key": "51fc172253mshb6b58650d625e9ep14b00ejsna48ec6c423e9",
+            "rapidapi_key": "",
             "rapidapi_host": "twelve-data1.p.rapidapi.com"
         },
         "logging": {
@@ -13,7 +13,7 @@
     "dev": {
         "stock_api": {
             "url": "https://twelve-data1.p.rapidapi.com/quote",
-            "rapidapi_key": "51fc172253mshb6b58650d625e9ep14b00ejsna48ec6c423e9",
+            "rapidapi_key": "",
             "rapidapi_host": "twelve-data1.p.rapidapi.com"
         },
         "logging": {
@@ -24,7 +24,7 @@
     "testing": {
         "stock_api": {
             "url": "https://twelve-data1.p.rapidapi.com/quote",
-            "rapidapi_key": "51fc172253mshb6b58650d625e9ep14b00ejsna48ec6c423e9",
+            "rapidapi_key": "",
             "rapidapi_host": "twelve-data1.p.rapidapi.com"
         },
         "logging": {
