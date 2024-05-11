@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stock App</h1>
+        <img src="stocks.png" alt="Simple Stock App">
+        <p>Enter a stock symbol to get the price:</p>
+        <form action="#" method="post">
+            <label for="name">Stock symbol:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div id="spinner" class="spinner" style="display: none;"></div>
+    <div id="answer" style="display: none;" class="container">
+        <h2>Stock Price</h2>
+        <span id="Company"></span><br>
+        <span id="Date"></span><br>
+        <span id="Price"></span><br>
+        <span id="Volume"></span><br>
+        <button type="button" id="close-answer">Close</button>
+    </div>
+
+</body>
+
+</html>
